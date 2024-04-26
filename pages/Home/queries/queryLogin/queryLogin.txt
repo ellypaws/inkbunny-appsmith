@@ -1,0 +1,6 @@
+{{
+	{
+		"username": loginForm.formData.username,
+		"password": loginForm.formData.password
+	}
+}}

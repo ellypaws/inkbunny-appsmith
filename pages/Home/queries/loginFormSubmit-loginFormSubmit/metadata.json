@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "guestLogin",
-    "fullyQualifiedName": "loginUser.guestLogin",
+    "name": "loginFormSubmit",
+    "fullyQualifiedName": "loginFormSubmit.loginFormSubmit",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,17 +14,13 @@
       "userPermissions": []
     },
     "pageId": "Home",
-    "collectionId": "Home_loginUser",
+    "collectionId": "Home_loginFormSubmit",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "username"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -42,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-26T01:30:31Z"
   },
-  "id": "Home_loginUser.guestLogin",
+  "id": "Home_loginFormSubmit.loginFormSubmit",
   "deleted": false,
   "gitSyncId": "662afa75b4a3c970f3dd6d4b_65180ea6-52fe-4fce-bc1a-86d287f3c6c9"
 }

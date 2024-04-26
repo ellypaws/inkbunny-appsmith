@@ -1,7 +1,7 @@
 export default {
 	async logoutUser() {
 		if (!appsmith.store.sid) {
-			return "Already logged out"
+			return "SID not in storage"
 		}
 		try {
 			const logoutResponse = await queryLogout.run();

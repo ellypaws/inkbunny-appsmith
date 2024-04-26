@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "loginUser",
+    "name": "loginFormSubmit",
     "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Home_loginUser",
+  "id": "Home_loginFormSubmit",
   "deleted": false,
   "gitSyncId": "662afa75b4a3c970f3dd6d4b_4a7367e4-f7b6-4c6c-ac01-f5c65e268866"
 }
