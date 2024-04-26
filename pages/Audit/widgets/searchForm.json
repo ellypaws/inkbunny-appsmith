@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.7df6f087cceba86a9a5481b6c7f4871d.svg",
-    "onSubmit": "{{queryReviewSearch.run().then(() => {\n  storeValue('rid', queryReviewSearch.data.search.rid);\n  storeValue('search', queryReviewSearch.data);\n});}}",
+    "onSubmit": "{{queryReviewSearch.run().then(() => {\n  storeValue('rid', queryReviewSearch.data.search.rid);\n  storeValue('search', queryReviewSearch.data);\n});\nremoveValue('rid').then(() => {});}}",
     "topRow": 31,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
