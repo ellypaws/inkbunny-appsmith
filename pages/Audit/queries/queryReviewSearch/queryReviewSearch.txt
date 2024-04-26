@@ -1,0 +1,6 @@
+{{{
+	"rid": appsmith.store.rid,
+	"page": reviewTable.pageNo,
+  "text": searchForm.formData.text,
+  "random": searchForm.formData.random
+}}}

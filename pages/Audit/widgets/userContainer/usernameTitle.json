@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
-    "widgetName": "Text1",
+    "widgetName": "usernameTitle",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "searchTags": [
@@ -9,7 +9,7 @@
         "paragraph",
         "label"
     ],
-    "topRow": 2,
+    "topRow": 0,
     "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
@@ -19,7 +19,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 14.84375,
+    "parentColumnSpace": 6.0302734375,
     "dynamicTriggerPathList": [],
     "leftColumn": 22,
     "dynamicBindingPathList": [
@@ -34,17 +34,17 @@
     "text": "{{ appsmith.store.username || appsmith.user.name || appsmith.user.email }}",
     "key": "extleexn5f",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
-    "widgetId": "m9uy4b01rt",
+    "widgetId": "ucsijvm3pk",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "{{appsmith.theme.colors.primaryColor}}",
     "version": 1,
-    "parentId": "0",
+    "parentId": "eekha9fay6",
     "tags": [
         "Suggested",
         "Content"
@@ -56,6 +56,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 7,
-    "fontSize": "1.875rem",
+    "fontSize": "3.75rem",
     "minDynamicHeight": 4
 }

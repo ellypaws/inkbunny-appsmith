@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "logoutUser",
-    "fullyQualifiedName": "logoutUser.logoutUser",
+    "name": "loginFormSubmit",
+    "fullyQualifiedName": "loginFormSubmit.loginFormSubmit",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
-    "collectionId": "Home_logoutUser",
+    "pageId": "Audit",
+    "collectionId": "Audit_loginFormSubmit",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,6 +23,7 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-26T01:56:49Z"
+    "createdAt": "2024-04-26T01:30:31Z"
   },
-  "id": "Home_logoutUser.logoutUser",
+  "id": "Audit_loginFormSubmit.loginFormSubmit",
   "deleted": false,
-  "gitSyncId": "662afa75b4a3c970f3dd6d4b_a6c99d6b-c489-4ead-838b-cbbe3aa7fe80"
+  "gitSyncId": "662afa75b4a3c970f3dd6d4b_65180ea6-52fe-4fce-bc1a-86d287f3c6c9"
 }
